@@ -1,0 +1,17 @@
+{
+  "name": "chatgpt-plugin-marketplace",
+  "interface": {
+    "displayName": "True ChatGPT Plugin Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "proposal-builder",
+      "pluginId": "788e9e7d326c81918d8dcaa4ed8919a6",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/truedigitalcom/proposal-builder.git",
+        "ref": "main"
+      }
+    }
+  ]
+}
