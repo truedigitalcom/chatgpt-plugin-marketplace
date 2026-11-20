@@ -6,12 +6,17 @@
   "plugins": [
     {
       "name": "proposal-builder",
-      "pluginId": "788e9e7d326c81918d8dcaa4ed8919a6",
+      "pluginId": "Plugin_788e9e7d326c81918d8dcaa4ed8919a6",
       "source": {
         "source": "url",
-        "url": "https://github.com/truedigitalcom/proposal-builder.git",
+        "url": "https://github.com/truedigitalcom/proposal-builder",
         "ref": "main"
-      }
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     }
   ]
 }
